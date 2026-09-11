@@ -158,18 +158,6 @@ jupyter notebook
 - Матрицей миграции стадий (переходы между стадиями)
 - Анализом просрочки по продуктам
 
-## Клонирование и запуск
-
-```bash
-git clone https://github.com/Tiranomage/retail-risk-datamart.git
-cd retail-risk-datamart
-
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
-python run_pipeline.py
-
 ## Лицензия
 
 MIT
